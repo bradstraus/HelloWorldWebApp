@@ -27,6 +27,7 @@ public class HelloWorldWebAppServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().println("Hello World! -- From HelloWorldWebAppServlet ...");
+		// just adding a comment to test my new github repository
 	}
 
 }
